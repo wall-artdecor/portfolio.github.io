@@ -71,8 +71,8 @@ hr {
 .navbar-inverse .navbar-brand {
     color: aliceblue;
     font-weight: bolder;
-    font-size: 28px;
-    letter-spacing: 3px;
+    font-size: 26px;
+    letter-spacing: 2px;
 }
 .navbar-inverse .navbar-brand:hover {
     color: rgb(73, 64, 65);
@@ -80,7 +80,7 @@ hr {
 }
 
 #headerwrap {
-    background-image: url(../img/orchid.png);
+    background-image: url(../img/orchid2.png);
     margin-top: 90px;
     padding-top: 30px;
     text-align: center;
@@ -266,12 +266,6 @@ hr {
     background-color: transparent !important;
 }
 
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-
 .post-title {
     position: absolute;
     top: 90px;
@@ -308,4 +302,9 @@ hr {
    color: #bdbdbd;
     font-size: 18px; 
 }
-rgba(237, 20, 61, 0.68)
+
+@media(max-width: 320px) {
+    body {
+        padding: 0;
+    }
+}
